@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__63-[GiphyCollectionViewLayout layoutAttributesForElementsInRect:]_block_invoke:GiphyCollectionViewLayout.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_positionArray">
+            </PersistentString>
+            <PersistentString
+               value = "position2.frame.origin.x">
+            </PersistentString>
+            <PersistentString
+               value = "position1.frame.origin.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchGiphyViewController collectionView:numberOfItemsInSection:]:SearchGiphyViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_giphyArray.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__67-[SearchGiphyViewController collectionView:cellForItemAtIndexPath:]_block_invoke:SearchGiphyViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "request">
+            </PersistentString>
+            <PersistentString
+               value = "response">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__39-[SearchGiphyViewController getSearch:]_block_invoke:SearchGiphyViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_giphyArray">
+            </PersistentString>
+            <PersistentString
+               value = "responseArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchGiphyViewController collectionView:cellForItemAtIndexPath:]:SearchGiphyViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[APIClientManager getSearch:withOffset:count:onSuccess:onFailure:]:APIClientManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "api_key">
+            </PersistentString>
+            <PersistentString
+               value = "parameters.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__67-[APIClientManager getSearch:withOffset:count:onSuccess:onFailure:]_block_invoke:APIClientManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GiphyCollectionViewLayout layoutAttributesForElementsInRect:]:GiphyCollectionViewLayout.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "position">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Giphy initWithDictionary:]:Giphy.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "smallImageHeight">
+            </PersistentString>
+            <PersistentString
+               value = "fixedWidthSmall">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchGiphyViewController textField:shouldChangeCharactersInRange:replacementString:]:SearchGiphyViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "textField.text">
+            </PersistentString>
+            <PersistentString
+               value = "_giphyArray.count">
+            </PersistentString>
+            <PersistentString
+               value = "_searchText">
+            </PersistentString>
+            <PersistentString
+               value = "_searchTextField.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchGiphyViewController sizeItem:]:SearchGiphyViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_layout.leftInset">
+            </PersistentString>
+            <PersistentString
+               value = "_layout.numberLines">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
