@@ -18,13 +18,13 @@
 		FC291F2D1EFF8E0900B36552 /* GiphyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC291F2C1EFF8E0900B36552 /* GiphyCollectionViewCell.m */; };
 		FC291F2F1EFF8E6C00B36552 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC291F2E1EFF8E6C00B36552 /* ImageIO.framework */; };
 		FC291F431EFFB03C00B36552 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC291F421EFFB03C00B36552 /* AFNetworking.framework */; };
-		FC291F461EFFB07B00B36552 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = FC291F441EFFB07B00B36552 /* UIImage+animatedGIF.m */; };
 		FC291F4A1EFFE4AE00B36552 /* Giphy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC291F491EFFE4AE00B36552 /* Giphy.m */; };
 		FC291F4D1EFFE4D700B36552 /* UserGiphy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC291F4C1EFFE4D700B36552 /* UserGiphy.m */; };
 		FC31FBAB1F00F865005BE090 /* BaseCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC31FBAA1F00F865005BE090 /* BaseCollectionViewLayout.m */; };
 		FC31FBAE1F00F8B4005BE090 /* GiphyCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC31FBAD1F00F8B4005BE090 /* GiphyCollectionViewLayout.m */; };
 		FC31FBB21F01032F005BE090 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC31FBB11F01032F005BE090 /* DetailViewController.m */; };
 		FC31FBB51F01100E005BE090 /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC31FBB41F01100E005BE090 /* UserTableViewCell.m */; };
+		FC31FBBD1F012371005BE090 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = FC31FBBC1F012371005BE090 /* UIImage+animatedGIF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,8 +50,6 @@
 		FC291F351EFF90BC00B36552 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FC291F371EFF90CD00B36552 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC291F421EFFB03C00B36552 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../Library/Developer/Xcode/DerivedData/Giphy-gnuyjfwwylstsnegshbbeswgchqr/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
-		FC291F441EFFB07B00B36552 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+animatedGIF.m"; path = "../../../../.Trash/UIImage+animatedGIF.m"; sourceTree = "<group>"; };
-		FC291F451EFFB07B00B36552 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+animatedGIF.h"; path = "../../../../.Trash/UIImage+animatedGIF.h"; sourceTree = "<group>"; };
 		FC291F481EFFE4AE00B36552 /* Giphy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Giphy.h; sourceTree = "<group>"; };
 		FC291F491EFFE4AE00B36552 /* Giphy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Giphy.m; sourceTree = "<group>"; };
 		FC291F4B1EFFE4D700B36552 /* UserGiphy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserGiphy.h; sourceTree = "<group>"; };
@@ -64,6 +62,8 @@
 		FC31FBB11F01032F005BE090 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		FC31FBB31F01100E005BE090 /* UserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
 		FC31FBB41F01100E005BE090 /* UserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
+		FC31FBBB1F012371005BE090 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		FC31FBBC1F012371005BE090 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,8 +190,8 @@
 		FC291F271EFF8C2D00B36552 /* Expansion */ = {
 			isa = PBXGroup;
 			children = (
-				FC291F451EFFB07B00B36552 /* UIImage+animatedGIF.h */,
-				FC291F441EFFB07B00B36552 /* UIImage+animatedGIF.m */,
+				FC31FBBB1F012371005BE090 /* UIImage+animatedGIF.h */,
+				FC31FBBC1F012371005BE090 /* UIImage+animatedGIF.m */,
 			);
 			name = Expansion;
 			sourceTree = "<group>";
@@ -349,7 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC291F221EFEA9C600B36552 /* SearchGiphyViewController.m in Sources */,
-				FC291F461EFFB07B00B36552 /* UIImage+animatedGIF.m in Sources */,
+				FC31FBBD1F012371005BE090 /* UIImage+animatedGIF.m in Sources */,
 				FC291F261EFED97B00B36552 /* APIClientManager.m in Sources */,
 				FC31FBAE1F00F8B4005BE090 /* GiphyCollectionViewLayout.m in Sources */,
 				FC31FBAB1F00F865005BE090 /* BaseCollectionViewLayout.m in Sources */,
